@@ -1,0 +1,17 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: com-boot-jwt
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+jwt:
+  config:
+    salt: kFWBRERFoeBgE27QXMeSGL5ABRhG7d9z40gNdEwj8IkHpw97NfFdtMZWtuQlkKE8
+    ttl: 10368000000
+
+#logging:
+#  level:
+#    com.neo.mapper: DEBUG
+#    root: error
